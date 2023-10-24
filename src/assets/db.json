@@ -1,0 +1,121 @@
+[
+  {
+    "id": "001",
+    "bloco": "A",
+    "andar": 1,
+    "apartamento": 101,
+    "nome": "João da Silva"
+  },
+  {
+    "id": "002",
+    "bloco": "A",
+    "andar": 1,
+    "apartamento": 102,
+    "nome": "Maria Souza"
+  },
+  {
+    "id": "003",
+    "bloco": "A",
+    "andar": 1,
+    "apartamento": 103,
+    "nome": "Carlos Oliveira"
+  },
+  {
+    "id": "004",
+    "bloco": "A",
+    "andar": 1,
+    "apartamento": 104,
+    "nome": "Ana Pereira"
+  },
+  {
+    "id": "005",
+    "bloco": "A",
+    "andar": 2,
+    "apartamento": 201,
+    "nome": "Pedro Santos"
+  },
+  {
+    "id": "006",
+    "bloco": "A",
+    "andar": 2,
+    "apartamento": 202,
+    "nome": "Luísa Fernandes"
+  },
+  {
+    "id": "007",
+    "bloco": "A",
+    "andar": 2,
+    "apartamento": 203,
+    "nome": "Miguel Alves"
+  },
+  {
+    "id": "008",
+    "bloco": "A",
+    "andar": 2,
+    "apartamento": 204,
+    "nome": "Rita Gonçalves"
+  },
+  {
+    "id": "009",
+    "bloco": "E",
+    "andar": 1,
+    "apartamento": 101,
+    "nome": "Antônio Silva"
+  },
+  {
+    "id": "010",
+    "bloco": "B",
+    "andar": 4,
+    "apartamento": 102,
+    "nome": "Isabela Oliveira"
+  },
+  {
+    "id": "011",
+    "bloco": "B",
+    "andar": 1,
+    "apartamento": 103,
+    "nome": "Lucas Santos"
+  },
+  {
+    "id": "012",
+    "bloco": "B",
+    "andar": 1,
+    "apartamento": 104,
+    "nome": "Camila Fernandes"
+  },
+  {
+    "id": "013",
+    "bloco": "C",
+    "andar": 2,
+    "apartamento": 201,
+    "nome": "Felipe Pereira"
+  },
+  {
+    "id": "014",
+    "bloco": "C",
+    "andar": 4,
+    "apartamento": 202,
+    "nome": "Larissa Alves"
+  },
+  {
+    "id": "015",
+    "bloco": "D",
+    "andar": 3,
+    "apartamento": 203,
+    "nome": "Gustavo Souza"
+  },
+  {
+    "id": "016",
+    "bloco": "C",
+    "andar": 4,
+    "apartamento": 204,
+    "nome": "Amanda Santos"
+  },
+  {
+    "id": "017",
+    "bloco": "D",
+    "andar": 3,
+    "apartamento": 202,
+    "nome": "Larissa Alves"
+  }
+]
