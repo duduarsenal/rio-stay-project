@@ -12,7 +12,7 @@ export default function Header() {
             <li>Moradores/Inquilinos</li>
           </Link>
           <Link to="/login" className="nav-item">
-            <li>Funcionarios</li>
+            <li>Login</li>
           </Link>
         </ul>
       </nav>
