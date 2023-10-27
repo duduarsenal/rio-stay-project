@@ -28,9 +28,9 @@ export default function SelecFilter({ label, filterid, ...props}) {
     <div className={`select ${filterid} hidden`} id={filterid} onClick={(e) => onClick(e.target.id)}>
       <div className="label">
         <label>
-          {filterid == 'bloco' ? props.bloco ? props.bloco : `Selecione um ${label}` : 
-          filterid == 'andar' ? props.andar ? props.andar : `Selecione um ${label}` :
-          filterid == 'apartamento' && props.apartamento ? props.apartamento : `Selecione um ${label}`}
+          {filterid == 'bloco' ? props.bloco ? `Bloco ${props.bloco}` : `Selecione um ${label}` : 
+          filterid == 'andar' ? props.andar ? `${props.andar}° Andar` : `Selecione um ${label}` :
+          filterid == 'apartamento' && props.apartamento ?  `Apartamento ${props.apartamento}` : `Selecione um ${label}`}
         </label>
         <RiArrowDownDoubleFill className="select-arrow" />
       </div>
