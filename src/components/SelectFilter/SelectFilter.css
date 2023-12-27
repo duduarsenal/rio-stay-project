@@ -68,6 +68,6 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.hidden .list-items{
+.off .list-items{
   display: none;
 }

@@ -1,7 +1,6 @@
 import { RiArrowDownDoubleFill } from "react-icons/ri";
 import Moradores from "../../assets/db.json";
 import "./SelectFilter.css";
-import { useEffect } from "react";
 
 export default function SelecFilter({ label, filterid, ...props}) {
 
@@ -10,7 +9,7 @@ export default function SelecFilter({ label, filterid, ...props}) {
   // }, [])
 
   function onClick(target){
-    document.getElementById(target).classList.toggle("hidden");
+    document.getElementById(target).classList.toggle("off");
     console.log(target);
   }
 
@@ -25,7 +24,7 @@ export default function SelecFilter({ label, filterid, ...props}) {
   }
 
   return (
-    <div className={`select ${filterid} hidden`} id={filterid} onClick={(e) => onClick(e.target.id)}>
+    <div className={`select ${filterid} off`} id={filterid} onClick={(e) => onClick(e.target.id)}>
       <div className="label">
         <label>
           {filterid == 'bloco' ? props.bloco ? `Bloco ${props.bloco}` : `Selecione um ${label}` : 

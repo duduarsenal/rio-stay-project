@@ -1,0 +1,26 @@
+.content{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+}
+
+.content table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content table tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.content table tr{
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.20); */
+    height: 30px;
+    text-align: center;
+}

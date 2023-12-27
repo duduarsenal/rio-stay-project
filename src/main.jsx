@@ -7,6 +7,7 @@ import './index.css'
 import App from './App.jsx'
 import PesquisarMorador from './pages/PesquisarMorador/PesquisarMorador'
 import Login from './pages/Login/Login'
+import PerfilMorador from './pages/PerfilMorador/PerfilMorador'
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/moradores",
         element: <PesquisarMorador />
+      },
+      {
+        path: "/perfil",
+        element: <PerfilMorador />
       }
     ]
   }

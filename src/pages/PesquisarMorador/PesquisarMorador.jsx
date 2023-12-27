@@ -1,4 +1,3 @@
-import Header from "../../components/Header/Header";
 import { BiSearch } from "react-icons/bi";
 
 import "./PesquisarMorador.css";
@@ -93,6 +92,7 @@ export default function PesquisarMorador() {
                 andar={morador.andar}
                 apartamento={morador.apartamento}
                 morador={morador.nome}
+                action={true}
               />
             ))}
           </table>
